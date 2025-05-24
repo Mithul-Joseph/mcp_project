@@ -27,11 +27,12 @@ cd mcp-chatbot
 
 2. Install uv (if not already installed):
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 3. Create a virtual environment and install dependencies:
 ```bash
+uv init
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 uv add ollama mcp nest-asyncio

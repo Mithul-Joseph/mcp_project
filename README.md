@@ -21,11 +21,12 @@ The chatbot follows MCP's client-server architecture, where it acts as an MCP cl
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd mcp-chatbot
+git clone https://github.com/Mithul-Joseph/mcp_project.git
+cd mcp_project
 ```
 
-2. Install uv (if not already installed):
+2. Install uv (if not already installed)
+Windows:
 ```bash
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
